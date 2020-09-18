@@ -64,10 +64,7 @@ def move():
 
     draw()
 
-#termian el juego cuando el proyectil sale del espacio
-    for target in targets:
-        if not inside(target):
-            return
+
 
     ontimer(move, 50)
 
