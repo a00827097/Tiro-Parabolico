@@ -47,7 +47,7 @@ def move():
 
 #como se mueven las pelotas a traves de la pantalla
     for target in targets:
-        target.x -= 0.5
+        target.x -= 5
 
 #simula la gravedad del proyectil
     if inside(ball):
